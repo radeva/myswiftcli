@@ -1,0 +1,44 @@
+{
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:myswiftcli}",
+      "name": "Debug myswiftcli",
+      "program": "${workspaceFolder:myswiftcli}/.build/debug/myswiftcli",
+      "preLaunchTask": "swift: Build Debug myswiftcli"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:myswiftcli}",
+      "name": "Release myswiftcli",
+      "program": "${workspaceFolder:myswiftcli}/.build/release/myswiftcli",
+      "preLaunchTask": "swift: Build Release myswiftcli"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:myswiftcli}",
+      "name": "Debug MySwiftCLI",
+      "program": "${workspaceFolder:myswiftcli}/.build/debug/MySwiftCLI",
+      "preLaunchTask": "swift: Build Debug MySwiftCLI"
+    },
+    {
+      "type": "lldb",
+      "request": "launch",
+      "sourceLanguages": ["swift"],
+      "args": [],
+      "cwd": "${workspaceFolder:myswiftcli}",
+      "name": "Release MySwiftCLI",
+      "program": "${workspaceFolder:myswiftcli}/.build/release/MySwiftCLI",
+      "preLaunchTask": "swift: Build Release MySwiftCLI"
+    }
+  ]
+}
